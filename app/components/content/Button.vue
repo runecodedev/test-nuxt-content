@@ -1,9 +1,10 @@
 <script setup lang="ts">
-interface Props {
-  label: string
-}
-
-defineProps<Props>()
+defineProps({
+  label: {
+    type: String,
+    default: 'Przycisk',
+  },
+})
 </script>
 
 <template>
