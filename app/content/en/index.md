@@ -1,3 +1,1 @@
-::button
-english button
-::
+:button{label="Button"}

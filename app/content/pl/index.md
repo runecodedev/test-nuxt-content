@@ -1,3 +1,1 @@
-::button
-polish button
-::
+:button{label="Przycisk"}
