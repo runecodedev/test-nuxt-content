@@ -1,7 +1,3 @@
-::customButton
----
-type: secondary
----
-
+::custom-button{type="secondary"}
 English button
 ::
