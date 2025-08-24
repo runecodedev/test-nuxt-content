@@ -4,13 +4,13 @@ import type { Collections } from '@nuxt/content'
 const { locale } = useI18n()
 
 const { data: page } = await useAsyncData(
-  'homePage',
+  'contactUsPage',
   async () => {
     const collection = ('content_' + locale.value) as keyof Collections
-    const content = await queryCollection(collection).path('/').first()
+    const content = await queryCollection(collection).path('/contact-us').first()
 
     if (!content && locale.value !== 'pl') {
-      return await queryCollection('content_pl').path('/').first()
+      return await queryCollection('content_pl').path('/contact-us').first()
     }
 
     return content
