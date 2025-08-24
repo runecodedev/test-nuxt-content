@@ -1,3 +1,7 @@
-::button{type="secondary"}
-Button
+::customButton
+---
+type: primary
+---
+
+Polski przycisk
 ::
