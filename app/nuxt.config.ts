@@ -17,5 +17,16 @@ export default defineNuxtConfig({
     ],
     strategy: 'prefix_except_default',
     defaultLocale: 'pl',
+  },
+  content: {
+    renderer: {
+      anchorLinks: {
+        h2: false,
+        h3: false,
+        h4: false,
+        h5: false,
+        h6: false,
+      }
+    }
   }
 })

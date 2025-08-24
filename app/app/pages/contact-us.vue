@@ -3,7 +3,7 @@ import type { Collections } from '@nuxt/content'
 
 const { locale } = useI18n()
 
-const { data: page } = await useAsyncData(
+const { data: page } = useAsyncData(
   'contactUsPage',
   async () => {
     const collection = ('content_' + locale.value) as keyof Collections
