@@ -1,7 +1,11 @@
 ::custom-button{type="primary"}
 Polski przycisk
+
+  :::custom-button
+  test
+  :::
 ::
 
-::customButton{type="secondary"}
+::custom-button{type="secondary"}
 Drugi przycisk
 ::
