@@ -14,7 +14,7 @@
 <script setup lang="ts">
 const { locale, setLocale } = useI18n()
 
-const changeLanguage = (key: string) => {
+const changeLanguage = (key: 'en' | 'pl') => {
   setLocale(key)
 }
 </script>

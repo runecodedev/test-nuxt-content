@@ -7,10 +7,10 @@ const { data: page } = await useAsyncData(
   'contactUsPage',
   async () => {
     const collection = ('content_' + locale.value) as keyof Collections
-    const content = await queryCollection(collection).path('/contact-us').first()
+    const content = await queryCollection(collection).path('/contact-us-page').first()
 
     if (!content && locale.value !== 'pl') {
-      return await queryCollection('content_pl').path('/contact-us').first()
+      return await queryCollection('content_pl').path('/contact-us-page').first()
     }
 
     return content
