@@ -1,1 +1,3 @@
-:button{label="Button"}
+::button{type="secondary"}
+Button
+::

@@ -1,1 +1,3 @@
-:button{label="Przycisk"}
+::button{type="primary"}
+Przycisk
+::
