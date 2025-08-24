@@ -11,6 +11,6 @@ const buttonClass = computed(() => {
 
 <template>
   <button :class="buttonClass">
-    <slot />
+    <slot mdc-unwrap="p" />
   </button>
 </template>
