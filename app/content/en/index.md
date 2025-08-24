@@ -1,7 +1,7 @@
 ::customButton
 ---
-type: primary
+type: secondary
 ---
 
-Polski przycisk
+English button
 ::
