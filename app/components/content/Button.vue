@@ -1,5 +1,13 @@
+<script setup lang="ts">
+interface Props {
+  label: string
+}
+
+defineProps<Props>()
+</script>
+
 <template>
   <button>
-    <slot name="label" />
+    {{ label }}
   </button>
 </template>
